@@ -1,11 +1,11 @@
-## **REACT-JS CALCULATOR**
+# **REACT-JS CALCULATOR**
 
-### **SUBMITTED BY GROUP ALIBUMACMAL**
+## **SUBMITTED BY GROUP ALIBUMACMAL**
 
-## -**Shelby Lyn Alipio**
+### - **Shelby Lyn Alipio**
 
-## -**Kirk Hendrix Bulaong**
+### - **Kirk Hendrix Bulaong**
 
-## -**Aires Javan Macalino**
+### - **Aires Javan Macalino**
 
-## -**Jaime Jr Maliwat**
+### - **Jaime Jr Maliwat**

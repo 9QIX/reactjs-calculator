@@ -1,6 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+@import url("hhttps://sethusenthil.com/Product-Sans/api/font.css");
+/* @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:wght@100&display=swap'); */
+
 :root {
   --main-font: "League Spartan", sans-serif;
+  /* --main-font: "Pixelify Sans", Pixelify-Sans; */
+
 }
 
 /* GENERAL */
@@ -9,14 +13,14 @@
   padding: 0;
 }
 body {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
   overflow-y: scroll;
   box-sizing: border-box;
   font-family: var(--main-font);
 }
 body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
+  display: none; 
 }
 
 image {
@@ -32,7 +36,8 @@ li {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   max-width: 100%;
   width: 538px;
   margin: 0 auto;
@@ -40,24 +45,24 @@ header {
   padding: 1rem 0;
   align-items: center;
 }
-.themes {
+/* .themes {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
   align-items: flex-end;
-}
-.themes p {
+} */
+/* .themes p {
   font-size: 0.75rem;
   letter-spacing: 1px;
-}
-.theme-toggle {
+} */
+/* .theme-toggle {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
   font-weight: 0.9rem;
-}
-.theme-number,
+} */
+/* .theme-number,
 .theme-value {
   display: flex;
   flex-direction: row;
@@ -80,7 +85,7 @@ header {
 .theme-numbers {
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* CALCULATOR */
 .calculator {
@@ -92,7 +97,7 @@ header {
   margin-bottom: 5rem;
 }
 .calculator * {
-  transition: background-color 1s, color 0.1s ease-in-out;
+  transition: background-color .7s, color 0.02ms ease-in-out;
 }
 
 .calculator button {

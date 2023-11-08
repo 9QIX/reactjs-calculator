@@ -70,7 +70,7 @@ const Keypad = (props) => {
         value="x"
         onClick={() => props.updateCalc("*")}
       >
-        x
+        *
       </button>
       <button
         className="reset"
@@ -78,7 +78,7 @@ const Keypad = (props) => {
         value="reset"
         onClick={props.clear}
       >
-        RESET
+        AC
       </button>
       <button
         className="equals-key"

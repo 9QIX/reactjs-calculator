@@ -1,6 +1,6 @@
-// import { ThemeButton } from "@/components/styles/ThemeSwitching.styled";
-// import { basic, light, dark } from "@/components/styles/Theme.styled";
-// import ThemeNumbers from "@/components/header/ThemeNumbers";
+import { ThemeButton } from "@/components/styles/ThemeSwitching.styled";
+import { basic, light, dark } from "@/components/styles/Theme.styled";
+import ThemeNumbers from "@/components/header/ThemeNumbers";
 
 const ThemeButtons = (props) => {
   return (

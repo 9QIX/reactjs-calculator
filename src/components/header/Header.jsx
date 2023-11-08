@@ -3,7 +3,8 @@ import ThemeSwitcher from "@/components/header/ThemeSwitcher";
 const Header = ({ HandleThemeChange }) => {
   return (
     <header>
-      <h1>React JS Calculator</h1>
+      <img src="./public/logo.png"></img>
+      <h1>AliBuMacMal Calculator</h1>
       {/* <ThemeSwitcher HandleThemeChange={HandleThemeChange} /> */}
     </header>
   );
